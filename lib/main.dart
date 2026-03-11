@@ -88,7 +88,6 @@ class SpotifyHome extends StatelessWidget {
         child: Column( // Organiza las secciones de arriba hacia abajo.
           crossAxisAlignment: CrossAxisAlignment.start, // Alinea todo a la izquierda.
           children: [
-            const SizedBox(height: 40), // Espacio inicial para no chocar con la barra de estado del celular.
             
             // --- BLOQUE 1: GRID SUPERIOR ---
             GridView.count( // Crea una cuadrícula.
